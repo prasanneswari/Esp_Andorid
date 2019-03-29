@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Esp_Android</string>
+    <string name="title_activity_main">Main</string>
+
+    <array name="spinner">
+        <item>Airtel</item>
+        <item>Vodafone</item>
+        <item>Reliance</item>
+        <item>Aircel</item>
+        <item>BSNL</item>
+    </array>
+</resources>

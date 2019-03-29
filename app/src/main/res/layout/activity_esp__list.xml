@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/r1"
+    tools:context="com.jts.root.esp_android.Esp_List">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/esp_lstid"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"/>
+
+
+        <ListView
+            android:id="@+id/spinner_lst"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:background="#fff"
+            >
+
+            <Button
+                android:id="@+id/btnsave"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Save ext"
+                android:textSize="15dp"
+                android:background="@drawable/border_blue"/>
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Save int"
+                android:textSize="15dp"
+                android:background="@drawable/border_blue"/>
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="0dp"
+                android:layout_weight="0.25"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Add"
+                android:textSize="15dp"
+                android:background="@drawable/border_blue"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
